@@ -32,3 +32,14 @@ Conventions already in use that reflect Next 16:
 ## Imports
 
 TypeScript path alias `@/*` maps to `src/*` (see `tsconfig.json`).
+
+## Doc Convention
+
+Whenever a new file is created in `docs/`, add it to the **Project Docs** section below with one line on what it covers and when to read it.
+
+## Project Docs
+
+- `docs/design-system.md` — Design foundations: color tokens, neutrals, and semantic colors (with proposed Tailwind classes). Read before choosing colors or wiring up the Tailwind theme config.
+- `docs/ui.md` — Component and pattern reference (Button, IconButton, Icon, etc.) with variants, states, and global UI rules. Read before building or styling UI components.
+- `docs/architecture.md` — App Router structure: Server/Client Component split, `/lib` and `/components` layout, and naming conventions. Read before adding files or deciding where code lives.
+- `docs/database.md` — Data layer: MongoDB + Mongoose, cached connection, models in `/lib/db/models`, per-user query scoping, and schema conventions. Read before writing queries or models.
