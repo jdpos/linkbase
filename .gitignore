@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# claude code personal settings
+.claude/settings.local.json
+
+# feature plans (local only)
+plans/
